@@ -1,0 +1,160 @@
+body {
+  background-color: rgb(76, 86, 214);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Slabo 27px', serif;
+  font-size: 4rem;
+  color: rgb(236, 246, 249);
+  margin-bottom: 2%;
+}
+
+.box {
+  background-color: rgb(236, 246, 249);
+  padding: 1%;
+  margin: 3%;
+  border-left: 8px solid rgb(236, 246, 249);
+
+}
+
+.box:hover {
+  border-left: 8px solid rgb(34, 193, 251);
+}
+
+.click {
+  color: rgb(236, 246, 249);
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+}
+
+.input {
+  width: 300px;
+  font-size: 1rem;
+  padding: 0.8%;
+  margin-bottom: 2%;
+}
+
+input:focus {
+  opacity: 0.8;
+  outline: none;
+}
+
+.results {
+  font-size: 1.2rem;
+  color: black;
+  text-align: left;
+}
+
+.hidden {
+  display: none;
+}
+
+.results a {
+  font-size: 1.2rem;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+.submit {
+  color: rgb(236, 246, 249);
+  padding: 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+li:hover {}
+
+li h1 {
+  font-size: 1.5rem;
+}
+
+li p {
+  margin-top: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+@media only screen
+and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  .container {
+    width: 100%;
+  }
+  .heading {
+    font-size: 8rem;
+  }
+  .click {
+    font-size: 3.5rem;
+  }
+  .input {
+    width: 60%;
+    font-size: 2.5rem;
+  }
+  .submit {
+    display: block;
+    font-size: 3rem;
+    margin: auto;
+  }
+
+
+}
+
+
+@media only screen
+and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+  body {
+    min-width: 500px;
+  }
+  .container {
+    width: 100%;
+  }
+  .heading {
+    font-size: 5rem;
+  }
+  .click {
+    font-size: 2rem;
+  }
+  .input {
+    width: 60%;
+    font-size: 2rem;
+  }
+  .submit {
+    display: block;
+    font-size: 2rem;
+    margin: auto;
+  }
+}
